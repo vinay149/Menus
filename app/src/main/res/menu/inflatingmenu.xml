@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.vinay_thakur.menus.MainActivity">
+    <item
+        android:id="@+id/action_notification1"
+        android:title="action_notification"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/delete"
+                android:actionLayout="@layout/layout_menuitem"
+                android:icon="@drawable/ic_launcher_background"
+                android:orderInCategory="100"
+                android:title="PROFILE" />
+
+            <item
+                android:id="@+id/update"
+                android:icon="@drawable/ic_launcher_background"
+                android:orderInCategory="100"
+                android:title="COMPLETED TRIPS" />
+
+
+        </menu>
+    </item>
+</menu>
